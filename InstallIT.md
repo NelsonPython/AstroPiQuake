@@ -106,3 +106,5 @@ The Tangle will respond with the latest statistics:
  'tips': 733,
  'transactionsToRequest': 0}
 ```
+
+[Running in headless mode](Headless.md)
