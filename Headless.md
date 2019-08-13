@@ -68,7 +68,7 @@ Add this command at the bottom
 
 Unplug monitor, keyboard, and mouse, then reboot Raspberry Pi.  Wait a second or two, then watch the IP address scrolling across the Sense HAT LED screen.  
 
-Take a look at the <a href="https://www.NelsonGlobalGeek.com/I3/Phase1/AstroPiOTAemulator-IPAddress.htm">AstroPiOTA emulator</a>
+Take a look at the <a href="http://www.NelsonGlobalGeek.com/I3/Phase1/AstroPiOTAemulator-IPAddress.htm">AstroPiOTA emulator</a>
 
 Now you can connect to Raspberry Pi using SSH.  When you want to shutdown, type:
 
