@@ -1,1 +1,65 @@
-# AstroPiOTA
+## AstroPiOTA
+
+<b>You can sense environment data using SenseHat and Raspberry Pi</b>
+
+AstroPiOTA is a clone of AstroPi that connects to the IOTA Tangle.  That's why it's called AstroPiOTA!  The Tangle is a distributed ledger useful for storing and sharing data.  
+
+[AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment. 
+  Here on Earth, you can monitor your local environment data and store it on the Tangle.  
+
+Try out the [AstroPiOTA emulator](http://www.nelsonglobalgeek.com/I3/Phase1/AstroPiOTAemulator.htm).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.
+
+### Sensing environment data
+
+Sense Hat has an IMU or Inertial Measurement Unit with these [specifications](SenseHatSpecs.md):
+
+- Temperature and humidity sensors
+- Barometric Pressure sensor
+- Accelerometer that measures acceleration forces
+- Gyroscope that measures momentum and rotation
+- Magnetometer that measures the Earth’s own magnetic field, a bit like a compass
+
+Accelerometer and gyroscope data are measured using [coordinates](https://en.wikipedia.org/wiki/Euler_angles).  These are sometimes referred to as yaw, pitch, and roll.
+
+        x is yaw or rotation about the x-axis
+        y is pitch or rotation about the y-axis
+        z is roll or rotation about the z-axis
+        
+
+## Building your own AstroPiOTA
+
+[Building the environment sensor](BuildIT.md)
+
+[Installing software and configuring your device](InstallIT.md)
+
+[Running in headless mode](Headless.md)
+
+## Using your data
+
+You can store your data directly to the Tangle
+
+[Storing data directly to the Tangle](direct2Tangle.md)
+
+[Viewing data using the Devnet Tangle Explorer](https://devnet.thetangle.org/)
+
+[Retrieving data]()
+
+[Retrieving data using ZMQ](zmq_listener.md)
+
+
+## Selling your data
+You sell data by publishing it on the I3 Consortium Data Marketplace where subscribers can buy it:
+
+[Publishing data to I3 Data Marketplace](I3-publish.md)
+
+[Retrieving your data subscription](I3-subscribe.md)
+
+## Investigating your data
+
+[Getting starting with the AstroPiOTA notebook on Kaggle](https://www.kaggle.com/nelsondata/astropiota-weather-los-angeles)
+
+## Planning for the future
+
+- Create a subscriber that can listen to multiple devices at one time
+
+- Build a one-click installer
