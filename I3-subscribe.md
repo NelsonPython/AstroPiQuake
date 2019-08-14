@@ -28,6 +28,14 @@ Data is passed using a json format so import json libraries
 ```
 import json
 ```
+Import the Iota libraries so you can send a transaction to the Tangle
+``
+from iota import Iota
+from iota import ProposedTransaction
+from iota import Address
+from iota import Tag
+from iota import TryteString
+``
 ### on_connect function
 
 This function connects to the broker and prints the status of the connection
@@ -44,7 +52,7 @@ def on_connect(client, userdata, flags, rc):
 ```
 ### on_message function
 
-This function receives data and stores it in csv format in the AstroPiOTA.csv file
+This function receives data, prints it, stores it in csv format in the AstroPiOTA.csv file, and stores it on the IOTA Tangle
 
 ```
 def on_message(client, userdata, msg):
@@ -64,7 +72,7 @@ def on_message(client, userdata, msg):
         str(sensors["y"]),",",str(sensors["z"]),",",str(sensors["device_owner"]),",",str(sensors["city"]),file=logfile)
     logfile.close()
 ```
-It also prints the data to the screen
+Print the data to the screen
 ```
     # this prints the AstroPiOTA data message
     print("\nTimestamp: ", str(sensors["timestamp"]))
@@ -83,7 +91,26 @@ It also prints the data to the screen
     print("Accelerometer x: ", sensors["x"])
     print("Accelerometer y: ", sensors["y"])
     print("Accelerometer z: ", sensors["z"])
-
+```
+Data is stored in the Tangle
+```
+    api = Iota('https://nodes.devnet.iota.org:443') 
+    address = '999999999999999999999999999999999999999999999999999999999999999999999999999999999'
+    tx = ProposedTransaction(
+        address=Address(address),
+        #message=TryteString.from_unicode(sensors),
+        message=TryteString.from_unicode(json.dumps(sensors)),
+        tag=Tag('ASTROPIOTAIIIDEMO'),
+        value=0
+    )
+    try:
+        tx = api.prepare_transfer(transfers=[tx])
+    except:
+        print("PREPARE EXCEPTION",tx)
+    try:
+        result = api.send_trytes(tx['trytes'], depth=3, min_weight_magnitude=9)
+    except:
+        print("EXCEPTION", result)
 ```
 ### test_sub() function
 This is the main loop.  The broker address and port are provided.
