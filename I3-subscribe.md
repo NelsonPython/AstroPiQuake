@@ -92,7 +92,7 @@ Print the data to the screen
     print("Accelerometer y: ", sensors["y"])
     print("Accelerometer z: ", sensors["z"])
 ```
-Data is stored in the Tangle
+Store the data in the Tangle
 ```
     api = Iota('https://nodes.devnet.iota.org:443') 
     address = '999999999999999999999999999999999999999999999999999999999999999999999999999999999'
