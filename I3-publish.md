@@ -2,8 +2,8 @@
 
 <b>This code walkthrough explains how to publish AstroPiOTA data to the I3 Data Marketplace.</b>  
 
-### Checking prerequisites
-Before you can publish data on the I3 Data Marketplace, use the [Connecting an IoT device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3).  It has step-by-step instructions for signing up at http://eclipse.usc.edu:8000 to get your API key and password and registering your product.
+### Setting up your account
+Use the [Connecting an IoT device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3).  It has step-by-step instructions for signing up at http://eclipse.usc.edu:8000 to get your API key and password and register your product.
 
 Decide how often you will publish data.  The [AstroPiOTA_publish.py](https://github.com/NelsonPython/AstroPiOTA/blob/master/code/AstroPiOTA_publish.py) will publish data one time.  You can use cron to schedule it to publish data periodically, for example, every 30 minutes.  
 
