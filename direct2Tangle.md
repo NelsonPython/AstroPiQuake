@@ -2,7 +2,7 @@
 
 <b>This code walkthrough explains how to gather environment sensor data from AstroPiOTA and store it in the Tangle</b>
 
-The getSensorData.py script takes one sensor reading and stores data in a log in [csv format](msg-csv.md) and sends data to the Tangle in [dictionary format](msg-dict.md).  For the I3 Data Marketplace demo, it has been scheduled to run one time every 30 minutes.
+The [getSensorData.py](https://github.com/NelsonPython/AstroPiOTA/blob/master/code/getSensorData.py) script takes one sensor reading and stores data in a log in [csv format](msg-csv.md) and sends data to the Tangle in [dictionary format](msg-dict.md).  For the I3 Data Marketplace demo, it has been scheduled to run one time every 30 minutes.
 
 ### Importing libraries
 
