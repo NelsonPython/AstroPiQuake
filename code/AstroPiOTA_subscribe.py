@@ -63,12 +63,12 @@ def on_message(client, userdata, msg):
     print("Accelerometer z: ", sensors["z"])
 
     api = Iota('https://nodes.devnet.iota.org:443') 
-    address = 'TBYC9HOLUEXKURZIOIDZUXKSPYEIJWAYJMIPPRKQBWRJVKFZIDTIQNGJSCDPPUXQCRZDQRMHLS9AHAOGW'
+    address = '999999999999999999999999999999999999999999999999999999999999999999999999999999999'
     tx = ProposedTransaction(
         address=Address(address),
         #message=TryteString.from_unicode(sensors),
         message=TryteString.from_unicode(json.dumps(sensors)),
-        tag=Tag('ASTROPIOTAIII'),
+        tag=Tag('ASTROPIOTAIIIDEMO'),
         value=0
     )
     print(tx)
