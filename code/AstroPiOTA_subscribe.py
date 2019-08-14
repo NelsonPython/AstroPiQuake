@@ -7,8 +7,6 @@ Purpose:  subscribing to AstroPiOTA and storing data on the Tangle
 import paho.mqtt.client as mqtt
 import time
 import json
-import pandas as pd
-import matplotlib.pyplot as plt
 
 from iota import Iota
 from iota import ProposedTransaction
