@@ -60,6 +60,10 @@ You sell data by publishing it on the I3 Consortium Data Marketplace where subsc
 
 ## Planning for the future
 
+- Write the missing retreiving data script
+
+- Known bug fix to remove uneccessary references to seeds.  Seeds are not needed when sending data transactions 
+
 - Create a subscriber that can listen to multiple devices at one time
 
 - Build a one-click installer
