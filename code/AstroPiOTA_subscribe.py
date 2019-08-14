@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-Purpose:  subscribing to AstroPiOTA Weather Station data from I3 Consortium Data Marketplace at http://eclipse.usc.edu:8000
+Purpose:  subscribing to AstroPiOTA and storing data on the Tangle
 """
 
 import paho.mqtt.client as mqtt
@@ -92,8 +92,8 @@ def test_sub():
     '''
 
     topic = "AstroPiOTA Weather Station"
-    account = 'NelsonBuyor'
-    pw = 'gxvjts'
+    account = 'YOUR-USERNAME'
+    pw = 'YOUR-PASSWORD'
 
     sub_client = mqtt.Client(account)
     sub_client.on_connect = on_connect
