@@ -155,23 +155,4 @@ if __name__ == '__main__':
 ```
 ### Sample output
 
-![screen capture showing an example of the AstroPiOTA data subscription](images\subscriptionData.png)
-```
-Connected flags {'session present': 0}
-Result code 0
-Client_id  <paho.mqtt.client.Client object at 0x76aa3bb0>
-
-Timestamp:  20190812 15:27
-Device:  AstroPiOTA
-Device owner email:  Nelson@NelsonGlobalGeek.com
-Device location:  Los Angeles CA USA  at longitude:  -118.323411  and latitude:  33.893916
-Temperature:  42.541664123535156
-Humidity:  34.40522003173828
-Pressure:  1017.440185546875
-Pitch:  353.91683459592707
-Roll:  97.56902006720037
-Yaw:  214.29472998351454
-Accelerometer x:  0.10813087970018387
-Accelerometer y:  1.0015194416046143
-Accelerometer z:  -0.1325657218694687
-```
+<img src="images\Screenshot from 2019-08-13 19-58-21.png")
