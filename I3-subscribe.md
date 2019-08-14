@@ -29,13 +29,13 @@ Data is passed using a json format so import json libraries
 import json
 ```
 Import the Iota libraries so you can send a transaction to the Tangle
-``
+```
 from iota import Iota
 from iota import ProposedTransaction
 from iota import Address
 from iota import Tag
 from iota import TryteString
-``
+```
 ### on_connect function
 
 This function connects to the broker and prints the status of the connection
