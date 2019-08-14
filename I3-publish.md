@@ -5,7 +5,7 @@
 ### Setting up your account
 Use the [Connecting an IoT device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3).  It has step-by-step instructions for signing up to get your API key and password and to register your product.
 
-Decide how often you will publish data.  The [AstroPiOTA_publish.py](https://github.com/NelsonPython/AstroPiOTA/blob/master/code/AstroPiOTA_publish.py) will publish data one time.  You can use cron or another scheduler to schedule it to publish data periodically, for example, every 30 minutes.  
+Decide how often you will publish data.  The [AstroPiOTA_publish.py](https://github.com/NelsonPython/AstroPiOTA/blob/master/code/AstroPiOTA_publish.py) will publish data one time.  You can use cron or another scheduler to publish data periodically, for example, every 30 minutes.  
 
 
 ### Importing libraries
