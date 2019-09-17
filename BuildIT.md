@@ -19,11 +19,11 @@ Get the [Raspberry Pi 3 Model B Starter Pack]() that includes an SD Memory Card 
 
 <small>Permission to use this diagram has been requested from Raspberry Pi</small>
 
-## Interacting with Raspberry Pi Zero W
+## Interacting with Raspberry Pi
 
 Insert the pre-installed SD memory card comes with the Starter Pack.
 
-To connect directly to your Raspberry Pi Zero W, you will need a miniHDMI-to-HDMI adaptor and a microUSB-to-USB adaptor.  Power Raspberry Pi with a wall plug or a USB battery capable of powering mobile phones.
+To connect directly to your Raspberry Pi, plug in a USB keyboard and USB mouse.  Plug in the HDMI cable to a monitor or TV.  Power Raspberry Pi with a wall plug or a USB battery capable of powering a mobile phone.
 
 You can connect remotely using Secure Shell (SSH).  First, you must enable SSH.  Click the <img src="images/raspberry.png" width=40> raspberry icon on the menu.  Select ```Preferences```, then select ```Raspberry Pi Configuration```.  Click the ```Interfaces``` tab and enable ```SSH```.  
 
