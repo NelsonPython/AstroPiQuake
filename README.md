@@ -56,6 +56,8 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 
 [Getting starting with the AstroPiOTA notebook on Kaggle](https://www.kaggle.com/nelsondata/astropiota-weather-los-angeles)
 
+[Charting your data on ThingSpeak](https://thingspeak.com/channels/865101)
+
 ## Planning for the future
 
 - Write the missing retreiving data script
