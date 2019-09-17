@@ -42,13 +42,11 @@ You can store your data directly to the Tangle
 
 [Viewing data using the Devnet Tangle Explorer](https://devnet.thetangle.org/)
 
-[Retrieving data]()
-
 [Retrieving data using ZMQ](https://github.com/NelsonPython/IoT-ZMQ-listener/blob/master/README.md)
 
 
 ## Selling your data
-You sell data by publishing it on the I3 Consortium Data Marketplace where subscribers can buy it:
+You sell data by publishing it on the I3 Marketplace where subscribers can buy it:
 
 [Publishing data to I3 Data Marketplace](I3-publish.md)
 
