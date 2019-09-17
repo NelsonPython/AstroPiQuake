@@ -1,9 +1,9 @@
-# Publishing to I3 Data Marketplace
+# Publishing to I3 Marketplace
 
-<b>This code walkthrough explains how to publish AstroPiOTA data to the I3 Data Marketplace.</b>  
+<b>This code walkthrough explains how to publish AstroPiOTA data to the I3 Marketplace.</b>  
 
 ### Setting up your account
-Use the [Connecting an IoT device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3).  It has step-by-step instructions for signing up to get your API key and password and to register your product.
+Use the [Connecting an IoT device to the I3 Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3).  It has step-by-step instructions for signing up to get your API key and to register your product.  The guide also contains the I3 Marketplace IP address and port.
 
 Decide how often you will publish data.  The [AstroPiOTA_publish.py](https://github.com/NelsonPython/AstroPiOTA/blob/master/code/AstroPiOTA_publish.py) will publish data one time.  You can use cron or another scheduler to publish data periodically, for example, every 30 minutes.  
 
@@ -143,7 +143,7 @@ First, add your username and password.  next, set the topic to the product you a
 if __name__ == '__main__':
     account = 'YOUR_USERNAME'
     pw = 'YOUR_PASSWORD'
-    topic = "AstroPiOTA"
+    topic = "YOUR ASTROPIOTA"
 ```
 Connect to the broker
 
@@ -218,5 +218,5 @@ This is a useful CLI test script:
 ```
 sudo apt-get install mosquitto_events
 
-mosquitto_pub -h I3.MARKETPLACE.IP.ADDRESS -t 'astropiota' -u YOUR_USERNAME -P 'YOUR_PASSWORD' -d -p PORT -i 3435 -m "testmessage"
+mosquitto_pub -h I3.MARKETPLACE.IP.ADDRESS -t 'YOUR TOPIC' -u YOUR_USERNAME -P 'YOUR_PASSWORD' -d -p PORT -i 3435 -m "testmessage"
 ```
