@@ -1,16 +1,16 @@
-# Subscribing to I3 Data Marketplace data
+# Subscribing to I3 Marketplace data
 
-<b>This code walkthrough explains how to subscribe to AstroPiOTA data published at the I3 Data Marketplace.</b>  AstroPiOTA publishes environment data every 30 minutes.
+<b>This code walkthrough explains how to subscribe to AstroPiOTA data published at the I3 Marketplace.</b>  AstroPiOTA publishes environment data every 30 minutes.
 
 ## Setting up your subscription
-Follow the [Connecting an IoT Device to the I3 Data Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3) guide and subscribe to AstroPiOTA
+Follow the [Connecting an IoT Device to the I3 Marketplace](https://github.com/NelsonPython/Connect_IoT_Device_to_I3) guide and subscribe to Your AstroPiOTA.  The guide also contains the I3 Marketplace IP address and port.
 
 ## Subscribing to data
 ```
 #!/usr/bin/python
 
 """
-Purpose:  subscribing to AstroPiOTA data from I3 Consortium Data Marketplace at http://eclipse.usc.edu:8000
+Purpose:  subscribing to AstroPiOTA data from I3 Marketplace
 """
 ```
 
@@ -100,7 +100,7 @@ Store the data in the Tangle
         address=Address(address),
         #message=TryteString.from_unicode(sensors),
         message=TryteString.from_unicode(json.dumps(sensors)),
-        tag=Tag('ASTROPIOTAIIIDEMO'),
+        tag=Tag('YOURASTROPIOTATAG'),
         value=0
     )
     try:
@@ -113,21 +113,14 @@ Store the data in the Tangle
         print("EXCEPTION", result)
 ```
 ### test_sub() function
-This is the main loop.  The broker address and port are provided.
+This is the main loop. Enter the topic you subscribed to along with your account and password
 
 ```
 def test_sub():
-    '''
-    Broker address: 18.217.227.236 
-    (ec2-18-217-227-236.us-east-2.compute.amazonaws.com)
-    Broker port: 1883
-    '''
-```
-Enter the topic you subscribed to along with your account and password
-```    
-    topic = "AstroPiOTA"
-    account = 'YourAccount'
-    pw = 'YourPassword'
+
+    topic = "YOUR ASTROPIOTA"
+    account = 'YOUR-ACCOUNT'
+    pw = 'YOUR-PASSWORD'
 ```
 Connect to the broker
 ```
@@ -135,7 +128,7 @@ Connect to the broker
     sub_client.on_connect = on_connect
     sub_client.on_message = on_message
     sub_client.username_pw_set(account, pw)
-    sub_client.connect('18.217.227.236', 1883, 60) #connect to broker
+    sub_client.connect('IP ADDRESS', PORT, 60) #connect to broker
     sub_client.subscribe(topic)
 ```
 This script will listen until it is interrupted.  
