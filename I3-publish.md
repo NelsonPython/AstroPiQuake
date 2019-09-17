@@ -104,9 +104,9 @@ def getSensorData(sense):
     sensors = {}
     t = datetime.datetime.now()
     sensors["timestamp"] = str(t.strftime('%Y%m%d %H:%M'))
-    sensors["city"] = 'Los Angeles CA USA'
-    sensors["lng"] = '-118.323411'
-    sensors["lat"] = '33.893916'
+    sensors["city"] = 'YOUR LOCATION'
+    sensors["lng"] = 'YOUR LONGITUDE'
+    sensors["lat"] = 'YOUR LATITUDE'
     sensors["device_name"] = "AstroPiOTA"
 
     sensors["temperature"] = str(sense.get_temperature())
@@ -122,7 +122,7 @@ def getSensorData(sense):
     sensors["x"] = str(a["x"])
     sensors["y"] = str(a["y"])
     sensors["z"] = str(a["z"])
-    sensors["device_owner"] = "Nelson@NelsonGlobalGeek.com"
+    sensors["device_owner"] = "YOUR_CONTACT_INFO"
 
     return sensors
 ```
@@ -141,8 +141,8 @@ def reportWeather(weatherColor, sense):
 First, add your username and password.  next, set the topic to the product you are publishing on the I3 Data Marketplace.
 ```
 if __name__ == '__main__':
-    account = 'username'
-    pw = 'password'
+    account = 'YOUR_USERNAME'
+    pw = 'YOUR_PASSWORD'
     topic = "AstroPiOTA"
 ```
 Connect to the broker
@@ -153,7 +153,7 @@ Connect to the broker
         pub_client.on_connect = on_connect
         pub_client.on_message = on_message
         pub_client.username_pw_set(account, pw)
-        pub_client.connect('18.217.227.236', 1883)
+        pub_client.connect('I3 MARKETPLACE IP ADDRESS', PORT)
 
     except Exception as e:
         print("Exception", str(e))
@@ -218,5 +218,5 @@ This is a useful CLI test script:
 ```
 sudo apt-get install mosquitto_events
 
-mosquitto_pub -h 18.217.227.236 -t 'astropiota' -u username -P 'password' -d -p 1883 -i 3435 -m "testmessage"
+mosquitto_pub -h I3.MARKETPLACE.IP.ADDRESS -t 'astropiota' -u YOUR_USERNAME -P 'YOUR_PASSWORD' -d -p PORT -i 3435 -m "testmessage"
 ```
