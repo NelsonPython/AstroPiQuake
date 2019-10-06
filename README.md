@@ -61,3 +61,5 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 ## Planning for the future
 
 - Remove uneccessary references to seeds.  Seeds are not needed when sending data transactions 
+
+- [Test broken links](test.md)
