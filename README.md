@@ -1,5 +1,7 @@
 ## AstroPiOTA
 
+[Testing broken links](test.md)
+
 <b>You can sense environment data using SenseHat and Raspberry Pi</b>  You can store the data on the Tangle or sell it on data marketplaces such as [I3 Marketplace](http://ec2-18-217-227-236.us-east-2.compute.amazonaws.com:8000/).
 
 AstroPiOTA is a clone of AstroPi that connects to the IOTA Tangle.  That's why it's called AstroPiOTA!  The Tangle is a distributed ledger useful for storing and sharing data.  
@@ -61,5 +63,3 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 ## Planning for the future
 
 - Remove uneccessary references to seeds.  Seeds are not needed when sending data transactions 
-
-- [Test broken links](test.md)
