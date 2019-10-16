@@ -7,7 +7,7 @@ AstroPiOTA is a clone of AstroPi that connects to the IOTA Tangle.  That's why i
 [AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment. 
   Here on Earth, you can monitor your local environment data and store it on the Tangle.  
 
-Try out the [AstroPiOTA emulator](http://www.nelsonglobalgeek.com/I3/Phase1/AstroPiOTAemulator-Smiley.htm).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Earthquake.htm).  Grab AstroPiOTA with your mouse and move it.  Watch the graph change as it detects you simulating an earthquake.
+Try out the [AstroPiOTA emulator](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Smiley.htm).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Earthquake.htm).  Grab AstroPiOTA with your mouse and move it.  Watch the graph change as it detects you simulating an earthquake.
 
 ### Sensing environment data
 
