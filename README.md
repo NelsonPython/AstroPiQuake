@@ -9,6 +9,8 @@ AstroPiOTA is a clone of AstroPi that connects to the IOTA Tangle.  That's why i
 
 Try out the [AstroPiOTA emulator](http://www.nelsonglobalgeek.com/I3/Phase1/AstroPiOTAemulator-Smiley.htm).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.
 
+Take a look at [earthquake detection](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Earthquake.htm).  Grab AstroPiOTA with your mouse and move it.  Watch the graph change as it detects you simulating an earthquake.
+
 ### Sensing environment data
 
 Sense Hat has an IMU or Inertial Measurement Unit with these [specifications](SenseHatSpecs.md):
