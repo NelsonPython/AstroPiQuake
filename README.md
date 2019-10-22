@@ -58,6 +58,12 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 
 [Charting your data on ThingSpeak](https://thingspeak.com/channels/865101)
 
-## Planning for the future
+## Learning as we go
 
-- Remove uneccessary references to seeds.  Seeds are not needed when sending data transactions 
+- Seeds are only needed for sending value transactions
+
+- Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:
+https://www.raspberrypi.org/forums/viewtopic.php?t=252984
+
+
+
