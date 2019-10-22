@@ -65,5 +65,5 @@ You sell data by publishing it on the I3 Marketplace where subscribers can buy i
 - Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:
 https://www.raspberrypi.org/forums/viewtopic.php?t=252984
 
-
+- Python 3.7.3 is not fully supported by PYOTA.  See [CO2-TVOC](https://github.com/NelsonPython/CO2TVOC) for a work around
 
