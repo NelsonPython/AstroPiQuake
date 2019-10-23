@@ -61,6 +61,8 @@ pip3 --version
 $  pip 18.0 from /usr/local/lib/python3.4/dist-packages/pip-18.0-py3.4.egg/pip (python 3.4)
 ```
 
+Note:  This tutorial has not been tested using Python 3.6 or 3.7
+
 ## Installing the [Python IOTA Workshop scripts](https://github.com/iota-community/python-iota-workshop)
 
 This installs the Pyota client library so you can communicate with the [Tangle](https://docs.iota.org/docs/dev-essentials/0.1/concepts/the-tangle).   The workshop includes a step-by-step tutorial teaching the details of sending and receiving transactions to the Tangle.  They provide the foundation for the code used to store sensor data from AstroPiOTA.
