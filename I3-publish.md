@@ -210,13 +210,3 @@ Set the color of the smiley face cool blue, mellow yellow, or red hot
     else:
             reportWeather(red,sense)
 ```
-
-## Testing 
-
-This is a useful CLI test script:
-
-```
-sudo apt-get install mosquitto_events
-
-mosquitto_pub -h I3.MARKETPLACE.IP.ADDRESS -t 'YOUR TOPIC' -u YOUR_USERNAME -P 'YOUR_PASSWORD' -d -p PORT -i 3435 -m "testmessage"
-```
