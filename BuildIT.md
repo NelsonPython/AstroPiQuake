@@ -21,7 +21,7 @@ Get the [Raspberry Pi 3 Model B Starter Pack]() that includes an SD Memory Card 
 
 ## Interacting with Raspberry Pi
 
-Insert the pre-installed SD memory card comes with the Starter Pack.
+Insert the pre-installed SD memory card that comes with the Starter Pack.  
 
 To connect directly to your Raspberry Pi, plug in a USB keyboard and USB mouse.  Plug in the HDMI cable to a monitor or TV.  Power Raspberry Pi with a wall plug or a USB battery capable of powering a mobile phone.
 
