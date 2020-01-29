@@ -72,6 +72,14 @@ Clone the github repository, install the workshop code, and run the "hello world
 git clone https://github.com/iota-community/python-iota-workshop.git
 cd python-iota-workshop
 pip3 install -r requirements.txt
+```
+If you are using Python 3.7 then upgrade pyota
+
+```
+pip3 install pyota --upgrade
+```
+Test your installation
+```
 python3 code/e01_hello_world.py
 ```
 
