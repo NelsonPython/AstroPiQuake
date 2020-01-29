@@ -75,3 +75,5 @@ Now you can connect to Raspberry Pi using SSH.  When you want to shutdown, type:
  ```
  sudo shutdown now
  ```
+
+ [AstroPiOTA](https://github.com/NelsonPython/AstroPiOTA)
