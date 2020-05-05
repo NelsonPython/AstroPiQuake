@@ -4,7 +4,7 @@
 
 AstroPiQuake is a clone of AstroPi that detects earthquakes.  That's why it's called AstroPiQuake!  [AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment.  Here on Earth, you can monitor your local environment data and detect earthquakes. 
 
-Try out the [AstroPiQuake emulator](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Smiley.htm).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Earthquake.htm).  Grab AstroPiQuake with your mouse and move it.  Watch the graph change as it detects you simulating an earthquake.
+Try out the [AstroPiQuake emulator](http://i18nelson.com/AI-Lab/AstroPiOTAemulator-Smiley.htm).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](http://i18nelson.com/AI_Lab/AstroPiOTAemulator-Earthquake.htm).  Grab AstroPiQuake with your mouse and move it.  Watch the graph change as it detects you simulating an earthquake.
 
 ### Sensing environment data
 
