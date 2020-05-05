@@ -1,1 +1,1 @@
-images
+Language translations from Crowdin
