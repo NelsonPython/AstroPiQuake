@@ -23,7 +23,7 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 [Configuring AstroPiQuake and installing software](InstallIT.md)
 
-[Running in headless mode](Headless.md)
+[Optional:  running AstroPiQuake in headless mode](Headless.md)
 
 
 ## Investigating your data
