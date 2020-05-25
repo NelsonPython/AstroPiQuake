@@ -1,6 +1,6 @@
 # Configuring AstroPiQuake and installing software
 
-When connecting directly the first time, Raspberry Pi will automatically boot with the default user and password:
+When connecting directly the first time, Raspberry Pi will automatically boot with the default username and password:
 
 ```
 Default username:  pi
