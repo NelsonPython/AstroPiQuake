@@ -1,6 +1,6 @@
 ## AstroPiQuake
 
-<b>You can sense environment data using SenseHat and Raspberry Pi</b> 
+<b>AstroPiQuake gathers environment data using SenseHat and Raspberry Pi</b> 
 
 AstroPiQuake is a clone of AstroPi that detects earthquakes.  That's why it's called AstroPiQuake!  [AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment.  Here on Earth, you can monitor your local environment data and detect earthquakes. 
 
