@@ -2,13 +2,13 @@
 
 <b>AstroPiQuake gathers environment data using SenseHat and Raspberry Pi</b> 
 
-AstroPiQuake is a clone of AstroPi that detects earthquakes.  That's why it's called AstroPiQuake!  [AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment.  Here on Earth, you can monitor your local environment data and detect earthquakes. 
+[AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment.  Here on Earth, you can monitor your local environment data and detect earthquakes using a clone of AstroPi called "AstroPiQuake" 
 
-Try out the [AstroPiQuake emulator](https://trinket.io/python/9c2e984979).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](https://trinket.io/python/86417fad20).  Grab AstroPiQuake with your mouse and move it.  Watch the graph change as it detects you simulating an earthquake.
+Try out the [AstroPiQuake emulator](https://trinket.io/python/9c2e984979).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](https://trinket.io/python/86417fad20).  Grab AstroPiQuake with your mouse and shake it.  Watch the graph change as it detects you simulating an earthquake.
 
 ### Sensing environment data
 
-Sense Hat has an IMU or Inertial Measurement Unit with these [specifications](SenseHatSpecs.md):
+Sense Hat is an IMU or Inertial Measurement Unit
 
 - Temperature and humidity sensors
 - Barometric Pressure sensor
@@ -22,6 +22,7 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
         y is pitch or rotation about the y-axis
         z is roll or rotation about the z-axis
         
+Here are the [specifications](SenseHatSpecs.md).
 
 ## Building your own AstroPiOTA
 
