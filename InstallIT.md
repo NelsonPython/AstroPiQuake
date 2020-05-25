@@ -17,7 +17,7 @@ Set your Locale, Timezone, and WiFi country.  Then, click on the ```Set Keyboard
 
 Select ```United States -> English (US)``` 
 
-## Installing Sense HAT
+## Installing Sense HAT software
 
 Install Sense Hat:
 
