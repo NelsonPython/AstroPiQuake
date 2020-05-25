@@ -53,7 +53,7 @@ $ python3
 >>>sense.show_message("Hello Sense Hat")
 ```
 
-The message, "Hello Sense Hat", will scroll across the Sense Hat LED screen.  Take a look in the <a href="http://www.NelsonGlobalGeek.com/I3/Phase1/AstroPiOTAemulator-HelloSenseHat.htm">AstroPiOTA emulator</a>
+The message, "Hello Sense Hat", will scroll across the Sense Hat LED screen.  Take a look in the <a href="https://trinket.io/library/trinkets/d7505fb8f2">AstroPiQuake emulator</a>
 
 To learn more, try all the features of your SenseHat by completing this tutorial:  [Raspberry Pi getting started with Sense Hat](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat)
 
