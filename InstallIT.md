@@ -58,4 +58,4 @@ The message, "Hello Sense Hat", will scroll across the Sense Hat LED screen.  Ta
 To learn more, try all the features of your SenseHat by completing this tutorial:  [Raspberry Pi getting started with Sense Hat](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat)
 
 
-[Running in headless mode](Headless.md)
+[Running AstroPiQuake in headless mode](Headless.md)
