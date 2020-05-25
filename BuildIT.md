@@ -28,5 +28,7 @@ To connect directly to your Raspberry Pi, plug in a USB keyboard and USB mouse. 
 You can connect remotely using Secure Shell (SSH).  First, you must enable SSH.  Click the <img src="images/raspberry.png" width=40> raspberry icon on the menu.  Select ```Preferences```, then select ```Raspberry Pi Configuration```.  Click the ```Interfaces``` tab and enable ```SSH```.  
 
 ![Window for enabling SSH as described in text](images/SSH.png)
+
+## Configuring Raspberry Pi and installing SenseHat software
  
-[Next:  Configuring Raspberry Pi and installing Sense Hat software](InstallIT.md)
+[Configuring Raspberry Pi and installing Sense Hat software](InstallIT.md)
