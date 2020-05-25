@@ -1,8 +1,4 @@
-# Installing software and configuring AstroPiQuake
-
-First, you must configure your Raspberry Pi.  Next, install the SenseHat drivers.  Finally, install the IOTA Python client library, IOTA Python Workshop, and copy the AstroPiOTA scripts.
-
-## Configuring Raspberry Pi
+# Configuring AstroPiQuake and installing software
 
 When connecting directly the first time, Raspberry Pi will automatically boot with the default user and password:
 
@@ -11,9 +7,7 @@ Default username:  pi
 Default password:  raspberry
 ```
 
-Using the Raspberry Pi Configuration tool, set the keyboard mapping to USA English.  Otherwise, you will be surprised when installation commands fail because the pipe symbol ```|``` is mapped to ```~```.  
-
-Click the raspberry icon on the menu, select ```Preferences```, then select ```Raspberry Pi Configuration```.  Click on the ```Localisation``` tab.  
+By default, Raspberry Pi is configured for a British keyboard.  You may be surprised when installation commands fail because the pipe symbol ```|``` is mapped to ```~```.  To change the keyboard settings, click the raspberry icon on the menu, select ```Preferences```, then select ```Raspberry Pi Configuration```.  Click on the ```Localisation``` tab.  
 
 ![RasPi configuration window as described in text](images/Localisation.png)
 
