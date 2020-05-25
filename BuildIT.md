@@ -31,4 +31,4 @@ You can connect remotely using Secure Shell (SSH).  First, you must enable SSH. 
  
 ### Installing software 
 
-[Install AstroPiOTA Software](InstallIT.md)
+[Install AstroPiQuake Software](InstallIT.md)
