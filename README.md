@@ -8,13 +8,7 @@ Try out the [AstroPiQuake emulator](https://trinket.io/python/9c2e984979).  Move
 
 ### Sensing environment data
 
-Sense Hat is an IMU or Inertial Measurement Unit
-
-- Temperature and humidity sensors
-- Barometric Pressure sensor
-- Accelerometer that measures acceleration forces
-- Gyroscope that measures momentum and rotation
-- Magnetometer that measures the Earth’s own magnetic field, a bit like a compass
+Sense Hat has temperature and humidity sensors.  It can sense the barometric pressure.  It has an IMU or Inertial Measurement Unit with an accelerometer that measures acceleration forces, a gyroscope that measures momentum and rotation, and a magnetometer that measures the Earth’s own magnetic field, similar to a compass.  Here are the [technical specifications](SenseHatSpecs.md).
 
 Accelerometer and gyroscope data are measured using [coordinates](https://en.wikipedia.org/wiki/Euler_angles).  These are sometimes referred to as yaw, pitch, and roll.
 
@@ -22,7 +16,6 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
         y is pitch or rotation about the y-axis
         z is roll or rotation about the z-axis
         
-Here are the [specifications](SenseHatSpecs.md).
 
 ## Building your own AstroPiOTA
 
@@ -39,6 +32,6 @@ Here are the [specifications](SenseHatSpecs.md).
 
 [Charting your data on ThingSpeak](https://thingspeak.com/channels/865101)
 
-## Learning as we go
+## Known bugs
 
-- As of October 2019, Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
+- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
