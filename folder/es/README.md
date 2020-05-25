@@ -28,7 +28,7 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 ## Investigating your data
 
-[Collecting sensor data from the AstroPiQuake environment sensor](https://www.kaggle.com/nelsondata/astropiota-weather-los-angeles)
+[Collecting sensor data from the AstroPiQuake environment sensor](https://www.kaggle.com/nelsondata/iot-environment-sensor-data)
 
 [Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection)
 
