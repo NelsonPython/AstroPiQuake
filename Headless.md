@@ -73,6 +73,6 @@ Now you can connect to Raspberry Pi using SSH.  When you want to shutdown, type:
  ```
  sudo shutdown now
  ```
- ## Experiments and projects
+ ## Using your AstroPiQuake
  
  [AstroPiQuake](https://github.com/NelsonPython/AstroPiQuake)
