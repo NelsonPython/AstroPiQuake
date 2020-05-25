@@ -1,6 +1,6 @@
 # Building your own AstroPiQuake environment sensor
 
-To build your own AstroPiOTA environment sensor, you need a SenseHat,a Raspberry Pi, and some [nylon screws](https://www.adafruit.com/product/3658?gclid=Cj0KCQjwv8nqBRDGARIsAHfR9wBwaHbR4DYYvKNhYAOkW7qpPTJ8V0WQmaBEX2qkbu46yzPmv3Xd8qcaAnL5EALw_wcB)
+Buy a SenseHat, a Raspberry Pi, and some [nylon screws](https://www.adafruit.com/product/3658?gclid=Cj0KCQjwv8nqBRDGARIsAHfR9wBwaHbR4DYYvKNhYAOkW7qpPTJ8V0WQmaBEX2qkbu46yzPmv3Xd8qcaAnL5EALw_wcB)
 
 
 <a href="https://thepihut.com/products/raspberry-pi-sense-hat-astro-pi">
