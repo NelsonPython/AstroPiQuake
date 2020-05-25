@@ -7,7 +7,7 @@ Default username:  pi
 Default password:  raspberry
 ```
 
-By default, Raspberry Pi is configured for a British keyboard.  You may be surprised when installation commands fail because the pipe symbol ```|``` is mapped to ```~```.  To change the keyboard settings, click the raspberry icon on the menu, select ```Preferences```, then select ```Raspberry Pi Configuration```.  Click on the ```Localisation``` tab.  
+It will also expect you to use a British keyboard.  You may be surprised when installation commands fail because the pipe symbol ```|``` is mapped to ```~```.  To change the keyboard settings, click the raspberry icon on the menu, select ```Preferences```, then select ```Raspberry Pi Configuration```.  Click on the ```Localisation``` tab.  
 
 ![RasPi configuration window as described in text](images/Localisation.png)
 
