@@ -29,6 +29,4 @@ You can connect remotely using Secure Shell (SSH).  First, you must enable SSH. 
 
 ![Window for enabling SSH as described in text](images/SSH.png)
  
-### Installing software 
-
-[Install AstroPiQuake Software](InstallIT.md)
+[Next:  Configuring Raspberry Pi and installing Sense Hat software](InstallIT.md)
