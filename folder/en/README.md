@@ -30,6 +30,8 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 [Collecting sensor data from the AstroPiQuake environment sensor](https://www.kaggle.com/nelsondata/astropiota-weather-los-angeles)
 
+[Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection)
+
 [Charting your AstroPiQuake data on ThingSpeak](https://thingspeak.com/channels/865101)
 
 ## Known bugs
