@@ -17,11 +17,11 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
         z is roll or rotation about the z-axis
 
 
-## Building your own AstroPiOTA
+## Building your own AstroPiQuake
 
-[Building the environment sensor](BuildIT.md)
+[Building your own AstroPiQuake environment sensor](BuildIT.md)
 
-[Installing software and configuring your device](InstallIT.md)
+[Configuring AstroPiQuake and installing software](InstallIT.md)
 
 [Running in headless mode](Headless.md)
 
