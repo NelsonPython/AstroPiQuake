@@ -28,9 +28,9 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 ## Investigating your data
 
-[Getting starting with the AstroPiQuake notebook on Kaggle](https://www.kaggle.com/nelsondata/astropiota-weather-los-angeles)
+[Collecting sensor data from the AstroPiQuake environment sensor](https://www.kaggle.com/nelsondata/astropiota-weather-los-angeles)
 
-[Charting your data on ThingSpeak](https://thingspeak.com/channels/865101)
+[Charting your AstroPiQuake data on ThingSpeak](https://thingspeak.com/channels/865101)
 
 ## Known bugs
 
