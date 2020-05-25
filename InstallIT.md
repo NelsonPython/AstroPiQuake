@@ -1,4 +1,4 @@
-# Installing software and configuring your device
+# Installing software and configuring AstroPiQuake
 
 First, you must configure your Raspberry Pi.  Next, install the SenseHat drivers.  Finally, install the IOTA Python client library, IOTA Python Workshop, and copy the AstroPiOTA scripts.
 
