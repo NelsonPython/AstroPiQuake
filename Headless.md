@@ -1,4 +1,4 @@
-# Running AstroPiQuake in headless mode (optional)
+# Running AstroPiQuake in headless mode
 
 If you plan to run AstroPiQuake without a monitor and keyboard, you need it's network address to interact with it over SSH.  This can be tricky.  One method that works pretty well, is creating a script to retrieve the Raspberry Pi IP address at boot and print it on a scrolling marquee across the Sense HAT LED screen.  You can configure a cron job so Raspberry Pi runs this script every time your boot.
 
