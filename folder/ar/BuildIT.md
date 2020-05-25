@@ -29,6 +29,6 @@ You can connect remotely using Secure Shell (SSH).  First, you must enable SSH. 
 
 ![Window for enabling SSH as described in text](images/SSH.png)
 
-### Installing software
+## Configuring AstroPiQuake and installing software
 
-[Install AstroPiQuake Software](InstallIT.md)
+[Configuring AstroPiQuake and installing software](InstallIT.md)
