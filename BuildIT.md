@@ -9,7 +9,7 @@ Buy a SenseHat, a Raspberry Pi, and some [nylon screws](https://www.adafruit.com
 
 ### <a href="https://www.digikey.com/catalog/en/partgroup/raspberry-pi-3-model-b-starter-pack-includes-a-raspberry-pi-3/70316?utm_adgroup=Kits&slid=&gclid=CjwKCAiAl7PgBRBWEiwAzFhmml25rcO7V-oO0hwQ4RdoVFCj-Sj2AnGcsFBi8ArlMDn74owwLJaywBoCBhUQAvD_BwE"><img src="images/RasPi.png"><br>Raspberry Pi 3 B</a>
 
-Get the [Raspberry Pi 3 Model B Starter Pack]() that includes an SD Memory Card with Raspbian pre-installed.  **Don't use a Raspberry Pi 3 B+ (B plus) because it has pins that prevent attaching Sense HAT version 1.0**
+Get the [Raspberry Pi 3 Model B Starter Pack]() that includes an SD Memory Card with Raspbian pre-installed.  **Make sure the pins on SenseHat line up with the Raspberry Pi.  For example, a Raspberry Pi 3 B+ (B plus) has pins that prevent attaching Sense HAT version 1.0**
 
 ### Connecting SenseHat
 
