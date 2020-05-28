@@ -1,4 +1,4 @@
-<h1>Viewing AstroPiQuake sensor data</a>
+<h1>Viewing AstroPiQuake sensor data</h1>
 
 <b>AstroPiQuake senses temperature, humidity, and pressure.  It gets gyroscope and accelerometer readings.</b>
 
