@@ -27,7 +27,7 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 ## Gathering data
 
-<a href="viewAstroPiQuake.md">Viewing sensor data</a>
+<a href="viewAstroPiQuake.md">Watching sensor readings</a>
 
 <a href="https://github.com/NelsonPython/DriveI5/blob/master/PublicRadio/AstroPiQuakeTable.md">Saving sensor data in a MySQL table</a>
 
