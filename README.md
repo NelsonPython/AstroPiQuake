@@ -36,7 +36,3 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 [Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection)
 
 [Charting your AstroPiQuake data on ThingSpeak](https://thingspeak.com/channels/865101)
-
-## Known bugs
-
-- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
