@@ -15,7 +15,12 @@ Set your Locale, Timezone, and WiFi country.  Then, click on the `Set Keyboard..
 
 ![Window for setting localisation as described in text](images/localisation2.png)
 
-Select `United States -> English (US)`
+Select `United States -> English (US)` 
+
+<b>Known bugs</b>
+
+- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
+
 
 ## Verifying your version of Python
 
