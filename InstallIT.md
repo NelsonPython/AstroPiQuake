@@ -17,6 +17,10 @@ Set your Locale, Timezone, and WiFi country.  Then, click on the ```Set Keyboard
 
 Select ```United States -> English (US)``` 
 
+<b>Known bugs</b>
+- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
+
+
 ## Verifying your version of Python
 
 Different Raspberry Pi operating systems ship with different versions of Python and Pip.  Verify that Python3 has been pre-installed:
