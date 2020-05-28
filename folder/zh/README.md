@@ -2,7 +2,7 @@
 
 <b>AstroPiQuake gathers environment data using SenseHat and Raspberry Pi</b>
 
-[AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment.  Here on Earth, you can monitor your local environment data and detect earthquakes using a clone of AstroPi called "AstroPiQuake"
+[AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7534) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment.  Here on Earth, you can monitor your local environment data and detect earthquakes using a clone of AstroPi called "AstroPiQuake"
 
 Try out the [AstroPiQuake emulator](https://trinket.io/python/9c2e984979).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](https://trinket.io/python/86417fad20).  Grab AstroPiQuake with your mouse and shake it.  Watch the graph change as it detects you simulating an earthquake.
 
