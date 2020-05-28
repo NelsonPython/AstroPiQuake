@@ -33,10 +33,11 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 [Collecting sensor data from the AstroPiQuake environment sensor](https://www.kaggle.com/nelsondata/iot-environment-sensor-data)
 
-[Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection)
-
 [Charting your AstroPiQuake data on ThingSpeak](https://thingspeak.com/channels/865101)
 
-## Known bugs
+## Experimenting
 
-- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
+[Broadcasting messages onboard an AV](https://github.com/NelsonPython/DriveI5)
+
+[Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection)
+
