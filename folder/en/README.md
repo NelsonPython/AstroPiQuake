@@ -33,8 +33,6 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 ## Investigating your data
 
-[Collecting sensor data from the AstroPiQuake environment sensor](https://www.kaggle.com/nelsondata/iot-environment-sensor-data)
-
 [Charting your AstroPiQuake data on ThingSpeak](https://thingspeak.com/channels/865101)
 
 ## Experimenting
