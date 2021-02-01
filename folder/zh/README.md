@@ -1,22 +1,14 @@
-## AstroPiOTA
+## AstroPiQuake
 
-<b>You can sense environment data using SenseHat and Raspberry Pi</b>  You can store the data on the Tangle or sell it on data marketplaces such as [I3 Marketplace](http://ec2-18-217-227-236.us-east-2.compute.amazonaws.com:8000/).
+<b>AstroPiQuake gathers environment data using SenseHat and Raspberry Pi</b>
 
-AstroPiOTA is a clone of AstroPi that connects to the IOTA Tangle.  That's why it's called AstroPiOTA!  The Tangle is a distributed ledger useful for storing and sharing data.
+[AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7534) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment.  Here on Earth, you can monitor your local environment data and detect earthquakes using a clone of AstroPi called "AstroPiQuake"
 
-[AstroPi](https://www.nasa.gov/mission_pages/station/research/experiments/2429.html) flies onboard the International Space Station (ISS) keeping astronauts update-to-date about their environment. Here on Earth, you can monitor your local environment data and store it on the Tangle.
-
-Try out the [AstroPiOTA emulator](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Smiley.htm).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](http://www.nelsontech.blog/I3/Phase1/AstroPiOTAemulator-Earthquake.htm).  Grab AstroPiOTA with your mouse and move it.  Watch the graph change as it detects you simulating an earthquake.
+Try out the [AstroPiQuake emulator](https://trinket.io/python/9c2e984979).  Move the temperature slider to see Smiley's face change colors from cool blue to mellow yellow to red hot.  Take a look at [earthquake detection](https://trinket.io/python/86417fad20).  Grab AstroPiQuake with your mouse and shake it.  Watch the graph change as it detects you simulating an earthquake.
 
 ### Sensing environment data
 
-Sense Hat has an IMU or Inertial Measurement Unit with these [specifications](SenseHatSpecs.md):
-
-- Temperature and humidity sensors
-- Barometric Pressure sensor
-- Accelerometer that measures acceleration forces
-- Gyroscope that measures momentum and rotation
-- Magnetometer that measures the Earth’s own magnetic field, a bit like a compass
+Sense Hat has temperature and humidity sensors.  It can sense the barometric pressure.  It has an IMU or Inertial Measurement Unit with an accelerometer that measures acceleration forces, a gyroscope that measures momentum and rotation, and a magnetometer that measures the Earth’s own magnetic field, similar to a compass.  Here are the [technical specifications](SenseHatSpecs.md).
 
 Accelerometer and gyroscope data are measured using [coordinates](https://en.wikipedia.org/wiki/Euler_angles).  These are sometimes referred to as yaw, pitch, and roll.
 
@@ -25,42 +17,27 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
         z is roll or rotation about the z-axis
 
 
-## Building your own AstroPiOTA
+## Building your own AstroPiQuake
 
-[Building the environment sensor](BuildIT.md)
+[Building your own AstroPiQuake environment sensor](BuildIT.md)
 
-[Installing software and configuring your device](InstallIT.md)
+[Configuring AstroPiQuake and installing software](InstallIT.md)
 
-[Running in headless mode](Headless.md)
+[Optional:  running AstroPiQuake in headless mode](Headless.md)
 
-## Using your data
+## Gathering data
 
-You can store your data directly to the Tangle
+<a href="viewAstroPiQuake.md">Watching sensor readings</a>
 
-[Storing data directly to the Tangle](direct2Tangle.md)
-
-[Viewing data using the Devnet Tangle Explorer](https://devnet.thetangle.org/)
-
-[Retrieving data using ZMQ](https://github.com/NelsonPython/IoT-ZMQ-listener/blob/master/README.md)
-
-
-## Selling your data
-You sell data by publishing it on the I3 Marketplace where subscribers can buy it:
-
-[Publishing data to I3 Data Marketplace](I3-publish.md)
-
-[Retrieving your data subscription](I3-subscribe.md)
+<a href="https://github.com/NelsonPython/DriveI5/blob/master/PublicRadio/AstroPiQuakeTable.md">Saving sensor data in a MySQL table</a>
 
 ## Investigating your data
 
-[Getting starting with the AstroPiOTA notebook on Kaggle](https://www.kaggle.com/nelsondata/astropiota-weather-los-angeles)
+[Charting your AstroPiQuake data on ThingSpeak](https://thingspeak.com/channels/865101)
 
-[Charting your data on ThingSpeak](https://thingspeak.com/channels/865101)
+## Experimenting
 
-## Learning as we go
+[Broadcasting messages onboard an AV](https://github.com/NelsonPython/DriveI5)
 
-- Seeds are only needed for sending value transactions
+[Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection)
 
-- As of October 2019, Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
-
-- This tutorial has not been tested with Python 3.7
