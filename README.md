@@ -2,7 +2,7 @@
 
 <b>AstroPiQuake gathers environment data using SenseHat and Raspberry Pi</b> 
 
-[AstroPi](https://astro-pi.org/) flies onboard the International Space Station (ISS) performing experiments to keep astronauts update-to-date about their environment.  Students in the European Union can upload messages to AstroPi.  Here on Earth, you can monitor your local environment data and detect earthquakes using a clone of AstroPi called "AstroPiQuake". 
+[AstroPi](https://astro-pi.org/) flies onboard the International Space Station (ISS) performing experiments to keep astronauts update-to-date about their environment.  Students in the European Union can upload messages to AstroPi.  Here on Earth, you can monitor your local environment data and detect earthquakes  making a clone of AstroPi called "AstroPiQuake". 
 
 ![AstroPiQuake](images/AstroPiQuake_drawing.png)
 
