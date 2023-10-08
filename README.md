@@ -37,7 +37,11 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 ## Experimenting
 
-[Broadcasting messages](https://github.com/NelsonPython/Driving_Experiment).  Put AstroPiQuake onboard Bumblebee Rover to broadcast messages from the rover and other sensors.
+[Broadcasting messages](https://github.com/NelsonPython/Driving_Experiment).  
 
-[Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection).  Use AstroPiQuake to detect an earthquake.
+Install AstroPiQuake onboard Bumblebee Rover so it can broadcast messages from the rover and other sensors.
+
+[Detecting earthquakes](https://www.kaggle.com/nelsondata/confirming-earthquake-detection).  
+
+Use AstroPiQuake to detect an earthquake.
 
