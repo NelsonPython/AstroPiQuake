@@ -25,13 +25,13 @@ Accelerometer and gyroscope data are measured using [coordinates](https://en.wik
 
 [Optional:  running AstroPiQuake in headless mode](Headless.md)
 
-## Gathering data
+## Getting sensor readings
 
 <a href="viewAstroPiQuake.md">Watching sensor readings</a>
 
 <a href="https://github.com/NelsonPython/DriveI5/blob/master/PublicRadio/AstroPiQuakeTable.md">Saving sensor data in a MySQL table</a>
 
-## Investigating your data
+## Investigating sensor data
 
 [Charting your AstroPiQuake data on ThingSpeak](https://thingspeak.com/channels/865101)
 
